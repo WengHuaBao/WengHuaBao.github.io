@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jun 2022 21:55:20 +0800</lastBuildDate><atom:link href="https://WengHuaBao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>27</title>
+      <title>我的第一篇博客</title>
       <link>https://WengHuaBao.github.io/2022/06/27/</link>
       <pubDate>Mon, 27 Jun 2022 21:55:20 +0800</pubDate>
       
       <guid>https://WengHuaBao.github.io/2022/06/27/</guid>
-      <description>今天真的是历经千辛万苦，终于将blog搭建好了，太不容易了。</description>
+      <description>通过在网上搜索视频教程，以及请求微信好友的帮助，我发现在最后一步的git remote add origin https://github.com/XXXXX/XXXXX.github.io.git后会出现master，那这时就应git push -u origin master，否则将其改为git push -u origin main即可，最后我终于将blog搭建好了，太不容易了。</description>
     </item>
     
     <item>
