@@ -234,9 +234,9 @@
     </div>
     <div class="postShorten-excerpt">
       
-        今天总算是开始学习了一点东西。 主要学习了多线程的一小部分： 创建多线程主要有两种方式： 方式一： 1.创建一个继承于Thread类的子类 2.重写Thread类的run() 3.创建Thread类的子类的对象 4.通过此对象调用start()
-一些方法 5.对象.join是停止该进程，进入该对象的进程。 6.sleep(),睡眠阻塞状态。 7.isAlive(),线程是否存活。 8.getName() 9.setName() 10 1.线程的优先级 MAX_PRIORITY:10 MIN_PRIORITY:1 NORM_PRIORITY:5 2.如何获取和设置线程的优先级 getPriority() setPriority(int p)
-方式二：
+        今天总算是开始学习了一点东西。 主要学习了多线程的一小部分： *创建多线程主要有两种方式： *方式一： *1.创建一个继承于Thread类的子类 *2.重写Thread类的run() *3.创建Thread类的子类的对象 *4.通过此对象调用start()
+*一些方法 *5.对象.join是停止该进程，进入该对象的进程。 *6.sleep(),睡眠阻塞状态。 *7.isAlive(),线程是否存活。 *8.getName() *9.setName()
+10 1.线程的优先级 *MAX_PRIORITY:10 *MIN_PRIORITY:1 *NORM_PRIORITY:5 2.如何获取和设置线程的优先级 *getPriority() *setPriority(int p) *方式二：
 创建多线程的方式二：实现Runnable接口 1.创建一个实现了RUnnable接口的类 2.实现类去实现Runnable中的抽象方法：run() 3.创建实现类的对象 4.将此对象作为参数传递到Thread类的构造器中，创建Thread类的对象 5.通过Thread类的对象调用start() 
       
       <p>
